@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: hsl(204, 43%, 93%)  ;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+main{
+    margin: 10em 20em;
+}
+
+#top-div{
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    padding: 3em 5em 3em 3em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+#top-div p{
+    font-size: 1.27em;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1em;
+}
+h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 1em;
+}
+#bottom-div{
+    display: flex;
+}
+#dollar{
+    font-size: 3em;
+
+}
+#rate{
+    margin-top: 1em;
+    position: relative;
+    bottom: 0.7em;
+    opacity: 0.9;
+    color: hsl(204, 43%, 93%);
+}
+h2{
+    /* background-color: white; */
+    color: white;
+    margin-bottom: 1em;
+}
+#left-div{
+    width: 50%;
+    padding: 3em;
+    /* padding: 3em; */
+    color: white;
+    background-color: hsl(179, 62%, 43%) ;
+    border-bottom-left-radius: 0.5em;
+}
+#left-div a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 1em grey;
+}
+p{
+    line-height: 1.5em;
+}
+#right-div{
+    width: 50%;
+    padding: 3em;
+    border-bottom-right-radius:0.5em;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 56%, 49%) ;
+
+    line-height: 1.5em;
+}
+
+@media(max-width:376px){
+    h1{
+        font-size: x-large;
+        margin-bottom: 0.5em;
+    }
+    h3{
+        /* background-color: black; */
+        font-size: medium;
+    }
+    #dollar{
+        font-size: 2em;
+    }
+    #rate{
+        bottom: 0.4em;
+    }
+    #left-div a {
+        margin-top: 2em;
+    }
+    #left-div,#right-div,#top-div{
+        width: 100%;
+        padding: 1.5em;
+    }
+    #top-div p{
+        font-size: 13px;
+        line-height: 1.5em;
+    }
+    #left-div{
+        border-bottom-left-radius: 0em;
+    }
+    #right-div{
+        border-bottom-left-radius: 0.5em;
+    }
+    main{
+        margin: 4em 2em;
+    }
+    #bottom-div{
+        flex-direction: column;
+    }
+}
