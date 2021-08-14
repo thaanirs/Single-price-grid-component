@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Screenshot
 
-![DesktopUI](images/desktopUI.png) this picture depicts the desktopUI
-![mobileUI](images/mobileUI.png) this picture depicts the mobileUI
+![DesktopUI](images/desktopUI.PNG) this picture depicts the desktopUI
+![mobileUI](images/mobileUI.PNG) this picture depicts the mobileUI
 
 
 
